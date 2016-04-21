@@ -1,0 +1,19 @@
+{
+  "name": "hubot-gosu-messageinterval",
+  "version": "0.0.1",
+  "description": "Sends message to a specific GOSU channel under a set interval by user",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://zGrav@github.com/zGrav/hubot-gosu-messageinterval.git"
+  },
+  "author": "David Silva <zgrav@go.su>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zGrav/hubot-gosu-messageinterval/issues"
+  },
+  "homepage": "https://github.com/zGrav/hubot-gosu-messageinterval#readme"
+}
