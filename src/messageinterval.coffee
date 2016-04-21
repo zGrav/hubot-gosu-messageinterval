@@ -66,8 +66,8 @@ module.exports = (robot) ->
         id = msg.match[1]
         idarr = id - 1
 
-        if arr.length > 0
-            if robot.auth.hasRole(msg.envelope.user,'admin') or robot.auth.hasRole(msg.envelope.user,'messageinterval')
+        if robot.auth.hasRole(msg.envelope.user,'admin') or robot.auth.hasRole(msg.envelope.user,'messageinterval')
+            if arr.length > 0
                 removeIntervalTask(idarr)
 
                 msg.reply "ID #{id} which contained message #{arr[idarr].message} to channel #{arr[idarr].channel} has been deleted."

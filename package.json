@@ -1,6 +1,6 @@
 {
   "name": "hubot-gosu-messageinterval",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sends message to a specific GOSU channel under a set interval by user",
   "main": "index.js",
   "scripts": {
